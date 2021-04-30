@@ -1,0 +1,78 @@
+#topTitle {
+    font-family: monospace;
+    text-align: center;
+    align-content: center;
+    color: #046582;
+}
+head {
+    align-content: center;
+    text-align: center;
+}
+.navbar {
+    background-color:#bb8082;
+    font-family: monospace;
+    font-size: x-large;
+    align-content: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+body {
+    background-color: lightsalmon;
+    font-family: monospace;
+    color: #046582;
+}
+a {
+    color: white;
+    font-family: monospace;
+    padding-right: 40px;
+    flex-wrap: initial;
+}
+
+#topTitle {
+    font-size: 100px;
+}
+#my-photo {
+    align: center;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+p {
+    font-size: 30px;
+}
+#coding-quiz {
+    height: 500px;
+    width: 500px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+footer {
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    img {
+        flex-direction: column;
+    }
+  }
